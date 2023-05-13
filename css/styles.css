@@ -1,0 +1,139 @@
+.top-box {
+  height: auto;
+  background-color: #EAF6F6;
+}
+
+/* .top-box { */
+/* background-color: blue;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+} */
+/* .middle-box { */
+/* background-color: red;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+} */
+/* .bottom-box { */
+/* background-color: yellow;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 400px;
+  top: 400px;
+} */
+body {
+  background-color: #D9D7F1;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin:0 auto 0 auto;
+  padding-top: 80px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  bottom: 90%;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+.profile-photo{
+  margin-top: 100px;
+  width: 250px;
+  height: 250px;
+}
+.profile-txt{
+  width: 50%;
+  margin: 0 auto;
+}
+.skill1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill2{
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+}
+a{
+  color: #11999E;
+}
+a:hover{
+  color: #EAF6F6;
+}
+hr{
+   border: 10px dotted #EAF6F6;
+   border-bottom: none;
+   width: 10%;
+   margin: 100px auto;
+}
+.contact-txt{
+  width: 50%;
+  margin: 10px auto 50px auto;
+}
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(top bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(top bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 100px auto 0 auto;
+  padding-top: 20px ;
+  padding-bottom: 20px;
+}
+.footer-link{
+  padding: 30px 30px 30px 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+.ftr{
+ padding-top: 20px;
+ color: #EAF6F6;
+ font-size: 10px;
+}
